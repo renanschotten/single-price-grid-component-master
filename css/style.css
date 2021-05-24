@@ -142,7 +142,7 @@ footer {
     }
 
     .container {
-        margin-top: 2rem;
+        margin-top: 10rem auto 0 auto;
         width: 20rem;
         height: 65em;
         grid-template-areas:
