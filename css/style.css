@@ -137,11 +137,9 @@ footer {
 }
 
 @media (max-width: 798px) {
-    /* html {
-        max-height: fit-content;
-    } */
+
     body {
-        margin-top: 15rem;
+        margin-top: 10rem;
         align-items: center;
         justify-content: center;
     }
