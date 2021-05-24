@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     background-color: hsl(204, 43%, 93%);
+    display: flex;
 }
 
 .container {
@@ -30,22 +31,31 @@ body {
 .join {
     grid-area: join;
     display: flex;
+    
+    
 }
 
 .join .content {
     width: 45rem;
     height: auto;
     margin: auto;
+    padding: 0;
+    /* background-color:chocolate; */
 }
 
 .join h1 {
     color: #2ab2af;
+    margin: 0;
 }
 
 .join h2 {
     color: hsl(71, 73%, 54%);
 }
-
+.join p{
+    color: hsl(218, 22%, 67%);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 .sub {
     display: flex;
     grid-area: sub;
@@ -56,18 +66,27 @@ body {
 
 .sub .content {
     width: 20rem;
+    height: 13.5rem;
     margin: auto;
+    
+}
+.sub h2{
+    margin: 0 0 1.4rem 0;
 }
 .price {
     display: flex;
     width: auto;
     height: 2.5rem;
     justify-self: center;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%, 60%);
 }
 
 .price span {
     font-size: 2.5rem;
     margin: 0 0.5rem 0 0;
+    font-weight: 700;
+    color: white
 }
 
 .sub button {
@@ -80,6 +99,7 @@ body {
     color: white;
     font-weight: 700;
     font-size: 1.1em;
+    margin-top: 1.1rem;
 }
 
 .whyus {
@@ -87,14 +107,26 @@ body {
     grid-area: whyus;
     background-color: #2fc6c4;
     color: white;
+    border-bottom-right-radius: 8px;
 }
 
 .whyus .content {
     width: 20rem;
+    height: 13.5rem;
     margin: auto;
+    
+    
+}
+.whyus h2{
+    margin: 0 0 1.6rem 0;
 }
 
 .whyus ul {
     list-style: none;
     padding: 0;
+    line-height: 1.5rem;
+    color: hsl(204, 43%, 93%, 95%);
+}
+footer{
+    align-items: flex-end;
 }
