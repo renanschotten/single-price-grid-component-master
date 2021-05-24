@@ -134,7 +134,7 @@ footer{
     }
     .container {
         margin-top: 2rem;
-        width: 100%;
+        width: 50%;
         height: 65em;
         grid-template-areas:
             "join"
