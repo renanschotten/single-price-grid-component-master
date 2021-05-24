@@ -141,11 +141,12 @@ footer {
         max-height: fit-content;
     } */
     body {
+        margin-top: 15rem;
         align-items: center;
         justify-content: center;
     }
     .container {
-        margin-top: 10rem auto 0 auto;
+        margin-top: 20rem auto 0 auto;
         width: 20rem;
         height: 65em;
         grid-template-areas:
@@ -196,12 +197,10 @@ footer {
         margin: 0.5rem auto 0 auto;
         width: 20rem;
         text-align: center;
-        background-color: teal;
     }
     
     .attribution {
         margin: 0;
-        background-color: tomato;
     }
 
 }
