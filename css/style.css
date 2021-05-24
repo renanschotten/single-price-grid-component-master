@@ -137,10 +137,13 @@ footer {
 }
 
 @media (max-width: 798px) {
-    html {
+    /* html {
         max-height: fit-content;
+    } */
+    body {
+        align-items: center;
+        justify-content: center;
     }
-
     .container {
         margin-top: 10rem auto 0 auto;
         width: 20rem;
@@ -188,6 +191,17 @@ footer {
         width: 17rem;
         height: 13.5rem;
         margin: auto;
+    }
+    footer {
+        margin: 0.5rem auto 0 auto;
+        width: 20rem;
+        text-align: center;
+        background-color: teal;
+    }
+    
+    .attribution {
+        margin: 0;
+        background-color: tomato;
     }
 
 }
